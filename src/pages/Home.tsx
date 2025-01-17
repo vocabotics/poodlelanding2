@@ -1,6 +1,7 @@
 import { NavBar } from '@/components/NavBar';
 import { HeroSection } from '@/components/HeroSection';
 import { FeaturesSection } from '@/components/FeaturesSection';
+import { PoodlesSection } from '@/components/PoodlesSection';
 
 export function Home() {
   return (
@@ -9,6 +10,7 @@ export function Home() {
       <main>
         <HeroSection />
         <FeaturesSection />
+        <PoodlesSection />
       </main>
     </div>
   );
